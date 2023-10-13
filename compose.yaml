@@ -1,0 +1,8 @@
+services:
+  next-react:
+    container_name: next-react
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/work
